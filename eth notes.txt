@@ -1,1 +1,69 @@
-i'll write notes tommorrow ;)
+                          ETHEREUM BLOCKCHAIN
+
+             -decentralized
+             -distributed digital ledger
+             -secure and transparent
+             -system designed to verify and record transactions in a trustless manner
+    (at core it behaves like other blockchains but its focus is on Smart Contracts and decentralized applications more)
+              It is a programmable technology that allows DAPPs and DAOs.
+              Introduced by VITALIK BUTREIN in 2015.
+              Its native currency is ETHER.
+
+    KEY FEATURES=
+             -Decentralization
+             -Transparency
+             -Security
+             -interoperability
+
+    USE CASES=
+            - DE-FI = smart contracts for lending crypto, borrowing and trading.
+            -NFTs   = Digital ownership of art, collectables etc.
+            -Gaming Industry= in game assets and decentralized marketplace.
+
+    Ethereum MAINNET=
+            -primary public ethereum production blockchain. 
+            -Actual deployment and actual transactions happen here.
+            -etherscan.io is where you can see live transactions.
+
+    Ethereum TESTNET=
+            -before actually deploying smart contracts and DAPPs on mainnet, we need to test tem. testnets are places where testing happens.
+            -different type of public testnets.
+                      -goeli
+                      -sepolia and many other.
+    
+    MERKLE TREE=
+            -Leaf node is the hash of data block and each non-leaf block node is a hash of its child node.
+            -used to verify the integrity of large amount of data.
+            -it is a data structure organizing the transactions.
+            -we can trace to the root of transaction.
+            -Secure as it is very difficult to alter the data without invading the hash of root node.
+
+    ACCOUNTS=
+            -EOA
+            -CONTRACT ACCOUNTS
+    WALLETS=
+            Ethereum wallets are tools (software or hardware) that let users store, send, and receive ETH and interact with smart contracts on the Ethereum blockchain.
+
+        Types of wallets:
+
+              -Software wallets (e.g., MetaMask, Trust Wallet): Easy to use and ideal for regular transactions.
+
+              -Hardware wallets (e.g., Ledger, Trezor): Physical devices offering high security.
+
+            -Web wallets (e.g., Coinbase Wallet): Accessible via browsers; convenient but less secure.
+
+    TRANSACTIONS=
+                An Ethereum transaction is a cryptographically signed instruction from an account, used to:
+
+                 -Send ETH
+
+                 -Deploy or interact with smart contracts
+
+                 -Transfer tokens (ERC-20, ERC-721, etc.)
+
+    EIPs=
+        Ethereum Improvement Proposals (EIPs) are design documents that propose new features or changes to the Ethereum protocol.
+
+    ETEREUM CLIENTS=
+                  Ethereum clients are software implementations of the Ethereum protocol. They let you run a node, interact with the network, and validate transactions/blocks.
+
