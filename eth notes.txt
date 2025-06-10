@@ -64,8 +64,53 @@
     EIPs=
         Ethereum Improvement Proposals (EIPs) are design documents that propose new features or changes to the Ethereum protocol.
 
+
+ETHEREUM NODES=
+        -Fundamental components.
+        -it is a computer or device that runs Ethereum client software and connects to the Ethereum network. These nodes help maintain the decentralized and secure nature of the blockchain by sharing, verifying, and storing data.
+
+TYPES= 
+      1- Full Node=
+                -Stores the entire Ethereum blockchain (all blocks and transactions).
+                -Verifies all transactions and smart contract states.
+                -Keeps the network secure and trustworthy.
+                Example clients: Geth, Nethermind, Besu (running in full mode)
+
+      2-Light Node (Light Client)
+                -Downloads only block headers, not full transaction data.
+                -Verifies transactions using help from full nodes.
+                -Uses less storage and computing power.
+                -Used in mobile wallets and devices with limited resources.
+
+      3-Archive Node=
+               -Like a full node but also stores all historical state data.
+               -Allows access to any past state at any block — useful for research, analytics, and dApps.
+               -Consumes a huge amount of storage (terabytes).
+
+
+
     ETEREUM CLIENTS=
                   Ethereum clients are software implementations of the Ethereum protocol. They let you run a node, interact with the network, and validate transactions/blocks.
 
+        TYPES=
+             -execution clients (Execution Clients handle transaction processing and smart contract execution (EVM).)
+
+             -consensus clients (Consensus Clients manage block validation and consensus rules (especially for Proof of Stake))
+
+        | Client Name    | Programming Language       | Type             |
+        | -------------- | -------------------------- | ---------------- |
+        | **Geth**       | Go                         | Execution Client |
+        | **Nethermind** | C#                         | Execution Client |
+        | **Besu**       | Java                       | Execution Client |
+        | **Erigon**     | Go (performance-optimized) | Execution Client |
+        | **Prysm**      | Go                         | Consensus Client |
+        | **Lighthouse** | Rust                       | Consensus Client |
+        | **Teku**       | Java                       | Consensus Client |
+        | **Nimbus**     | Nim                        | Consensus Client |
+
+     IN SIMPLE TERMS= 
+                       Client = Software
+                       Node = Computer running the software
+
 Hafsa Ahmad
-30-05-2025.
+10-06-2025.
