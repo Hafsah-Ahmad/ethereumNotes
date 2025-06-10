@@ -42,5 +42,8 @@ Types:
 -Execution Clients: Handle transactions and run smart contracts.
 -Consensus Clients: Manage block validation and consensus (PoS).
 
+Node vs Client=
+              -Client = Software
+              -Node = Computer running the software
 
 Authored by Hafsa Ahmad, 30-05-2025.
