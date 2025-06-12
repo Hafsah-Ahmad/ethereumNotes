@@ -45,5 +45,6 @@ Types:
 Node vs Client=
               -Client = Software
               -Node = Computer running the software
+              hello guys , love you so much..
 
 Authored by Hafsa Ahmad, 30-05-2025.
